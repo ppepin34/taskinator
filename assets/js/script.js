@@ -9,6 +9,7 @@ var createTaskHandeler = function(){
     listItemEl.className = "task-item";
     listItemEl.textContent = "This is a new task.";
     tasksToDoEl.appendChild(listItemEl);
+    console.log(event);
 };
 
 formEl.addEventListener("submit", createTaskHandeler)
